@@ -76,93 +76,93 @@
 
     <div class="container" id="section3">
         
-        <div class="jejer" id="container-1">
+        <!-- <div class="jejer" id="container-1">
             <h2>1-2</h2>
             <div>
                 <h3 id="title-1"></h3>
-                <p>Pada dua minggu pertama, kalian akan mempelajari dasar programming seperti Algoritma dan Flowchart, lalu dilanjutkan dengan materi JavaScript, seperti ES6, Asynchronous JavaScript dan lain-lain</p>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer" id="container-2">
-            <h2>3</h2>
+            <h2></h2>
             <div>
-                <h3 id="title-2">Responsive Website</h3>
-                <p>Kalian akan mempelajari bagaimana membangun website yang responsive dengan HTML, CSS, dan Bootstrap</p>
+                <h3 id="title-2"></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer" id="container-3">
-            <h2>4</h2>
+            <h2></h2>
             <div>
-                <h3 id="title-3">Beginner Backend with Node.js & Express.js</h3>
-                <p>Selanjutnya, kalian akan membangun sebuah RESTful HTTP API dengan menggunakan Node.js dan Express.js, serta menggunakan database MySQL</p>
+                <h3 id="title-3"></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer" id="container-4">
-            <h2>5</h2>
+            <h2></h2>
             <div>
-                <h3 id="title-4">Beginner Frontend with React</h3>
-                <p>Minggu ini kalian akan mempelajari Fundamental React.js, untuk membangun aplikasi web Frontend modern</p>
+                <h3 id="title-4"></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>6</h2>
+            <h2></h2>
             <div>
-                <h3>Intermediate Backend</h3>
-                <p>Kalian akan belajar membuat autentikasi dengan JWT, melakukan paginasi dan upload file berbasis RESTful HTTP API</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>7</h2>
+            <h2></h2>
             <div>
-                <h3>Intermediate Frontend</h3>
-                <p></p>Minggu ini kalian akan mempelajari State Management Frontend dengan Redux</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>8</h2>
+            <h2></h2>
             <div>
-                <h3>Team Project 1</h3>
-                <p>Kalian akan bekerja dalam tim dan membangun produk website dengan menerapkan framework SCRUM</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>9</h2>
+            <h2></h2>
             <div>
-                <h3>Beginner Mobile Development with React Native</h3>
-                <p>Selanjutnya, kalian akan masuk ke development mobile dengan React Native yang dapat dibuild menjadi aplikasi Android dan iOS</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>10</h2>
+            <h2></h2>
             <div>
-                <h3>Intermediate Mobile Development</h3>
-                <p>Kalian akan lebih dalam mempelajari React Native dan menerapkan Push Notification</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>11</h2>
+            <h2></h2>
             <div>
-                <h3>Real Time Application</h3>
-                <p>Kalian akan membangun aplikasi mobile berisi fitur Chat dan Map yang Realtime dengan memanfaatkan Socket.io</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
 
         <div class="jejer">
-            <h2>12</h2>
+            <h2></h2>
             <div>
-                <h3>Team Project 2 (Final Project)</h3>
-                <p>Kalian akan bekerja dalam tim, diberi tantangan untuk membuat aplikasi baru dengan ide bisnis di dalamnya, dan juga dengan menerapkan semua yang telah dipelajari</p>
+                <h3></h3>
+                <p></p>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
@@ -183,12 +183,83 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
-        var arrayJudul = ["Truk aja gandengan", "Sendal aja punya pasangan", "Pingin beli jajan berhadiah jodoh", "Matahari sendiri aja bisa bersinar"];
+        // var arrayJudul = ["Truk aja gandengan", "Sendal aja punya pasangan", "Pingin beli jajan berhadiah jodoh", "Matahari sendiri aja bisa bersinar"];
 
-        arrayJudul[0]===undefined ? document.getElementById("container-1").style.display = "none" : document.getElementById("title-1").innerHTML= arrayJudul[0];
-        arrayJudul[1]===undefined ? document.getElementById("container-2").style.display = "none" : document.getElementById("title-2").innerHTML= arrayJudul[1];
-        arrayJudul[2]===undefined ? document.getElementById("container-3").style.display = "none" : document.getElementById("title-3").innerHTML= arrayJudul[2];
-        arrayJudul[3]===undefined ? document.getElementById("container-4").style.display = "none" : document.getElementById("title-4").innerHTML= arrayJudul[3];
+        var arrayData = [
+            {
+                "nomor":"1-2",
+                "judul":"Algoritma, Flowchart dan Dasar JavaScript",
+                "deskripsi":"Pada dua minggu pertama, kalian akan mempelajari dasar programming seperti Algoritma dan Flowchart, lalu dilanjutkan dengan materi JavaScript, seperti ES6, Asynchronous JavaScript dan lain-lain",
+            },
+            {
+                "nomor":"3",
+                "judul":"Responsive Website",
+                "deskripsi":"Kalian akan mempelajari bagaimana membangun website yang responsive dengan HTML, CSS, dan Bootstrap",
+            },
+            {
+                "nomor":"4",
+                "judul":"Beginner Backend with Node.js & Express.js",
+                "deskripsi":"Selanjutnya, kalian akan membangun sebuah RESTful HTTP API dengan menggunakan Node.js dan Express.js, serta menggunakan database MySQL",
+            },
+            {
+                "nomor":"5",
+                "judul":"Beginner Frontend with React",
+                "deskripsi":"Minggu ini kalian akan mempelajari Fundamental React.js, untuk membangun aplikasi web Frontend modern",
+            },
+            {
+                "nomor":"6",
+                "judul":"Intermediate Backend",
+                "deskripsi":"Kalian akan belajar membuat autentikasi dengan JWT, melakukan paginasi dan upload file berbasis RESTful HTTP API",
+            },
+            {
+                "nomor":"7",
+                "judul":"Intermediate Frontend",
+                "deskripsi":"Minggu ini kalian akan mempelajari State Management Frontend dengan Redux",
+            },
+            {
+                "nomor":"8",
+                "judul":"Team Project 1",
+                "deskripsi":"Kalian akan bekerja dalam tim dan membangun produk website dengan menerapkan framework SCRUM",
+            },
+            {
+                "nomor":"9",
+                "judul":"Beginner Mobile Development with React Native",
+                "deskripsi":"Selanjutnya, kalian akan masuk ke development mobile dengan React Native yang dapat dibuild menjadi aplikasi Android dan iOS",
+            },
+            {
+                "nomor":"10",
+                "judul":"Intermediate Mobile Development",
+                "deskripsi":"Kalian akan lebih dalam mempelajari React Native dan menerapkan Push Notification",
+            },
+            {
+                "nomor":"11",
+                "judul":"Real Time Application",
+                "deskripsi":"Kalian akan membangun aplikasi mobile berisi fitur Chat dan Map yang Realtime dengan memanfaatkan Socket.io",
+            },
+            {
+                "nomor":"12",
+                "judul":"Team Project 2 (Final Project)",
+                "deskripsi":"Kalian akan bekerja dalam tim, diberi tantangan untuk membuat aplikasi baru dengan ide bisnis di dalamnya, dan juga dengan menerapkan semua yang telah dipelajari",
+            },
+        ];
+
+        
+        arrayData.forEach(element => {
+            $("#section3").append(`
+                <div class="jejer">
+                    <h2>`+element['nomor']+`</h2>
+                    <div>
+                        <h3>`+element['judul']+`</h3>
+                        <p>`+element['deskripsi']+`</p>
+                    </div>
+                </div>
+            `)
+        });
+
+        // arrayJudul[0]===undefined ? document.getElementById("container-1").style.display = "none" : document.getElementById("title-1").innerHTML= arrayJudul[0];
+        // arrayJudul[1]===undefined ? document.getElementById("container-2").style.display = "none" : document.getElementById("title-2").innerHTML= arrayJudul[1];
+        // arrayJudul[2]===undefined ? document.getElementById("container-3").style.display = "none" : document.getElementById("title-3").innerHTML= arrayJudul[2];
+        // arrayJudul[3]===undefined ? document.getElementById("container-4").style.display = "none" : document.getElementById("title-4").innerHTML= arrayJudul[3];
         
 
         $(window).scroll(function(){

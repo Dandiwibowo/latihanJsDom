@@ -128,7 +128,7 @@ menuitem{
 }
 
 #section3 {
-    padding: 140px;
+    padding: 140px 20px 140px 20px;
     padding-top:10px;
 }
 .jejer{
@@ -165,12 +165,12 @@ menuitem{
     left:48%;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     
 }
 @media (max-width: 1199.98px) {
     
-}
+} */
 
 @media (max-width: 991.98px) {
    #banner{
